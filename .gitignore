@@ -3,6 +3,8 @@
 .env.local
 .env.*.local
 
+secrets/
+
 # Java
 target/
 *.class
@@ -31,3 +33,16 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Personal study workspace + Claude tooling - private, stays off GitHub
+MISSION.md
+NOTES.md
+RESOURCES.md
+lessons/
+learning-records/
+reference/
+assets/
+docs/planning/Learning_Plan_2026-06.md
+.claude/
+CLAUDE.md
+skills-lock.json
